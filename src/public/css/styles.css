@@ -6,7 +6,7 @@ body{
     margin-bottom: 2rem;
     width: 18rem;
 }
-.card:hover{
+.card-dark:hover{
     opacity: .7;
 }
 
