@@ -5,3 +5,9 @@ body{
 .card:hover{
     opacity: .7;
 }
+
+@media (max-width: 996px){
+    .container{
+        display: block;
+    }
+}
