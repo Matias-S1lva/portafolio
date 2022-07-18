@@ -11,15 +11,39 @@
     <%- include('partials/navigation')%>
 
     <!--Main Content-->
-    <header class="container  vh-100 d-flex justify-content-center align-items-center">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="/img/perfil.jpg" class="w-25"  alt="">
-            <h1 class="display-1 my-5 text-uppercase fw-bold ">Matias</h1>
-            <a href="/about" class="btn btn-primary w-25">About</a>
-        </div>
-      
+    <header
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/img/perfil.jpg" class="w-25" alt="" />
+        <h1 class="display-1 my-5 text-uppercase fw-bold">Matias</h1>
+        <a href="/about" class="btn btn-primary w-25">About</a>
+      </div>
     </header>
-
+    <div class="container">
+      <div class="card" style="width: 18rem">
+        <img src="/img/tasatasa.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Tienda-online</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="/img/starwars.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Galeria-grid</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
     <%- include('partials/footer')%>
   </body>
 </html>
