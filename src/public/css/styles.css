@@ -5,8 +5,16 @@ body{
 .card{
     margin-bottom: 2rem;
     width: 18rem;
+    
 }
 .card-dark:hover{
     opacity: .7;
+}
+.container-card{
+   
+    margin: 2rem;
+}
+.container-card img{
+  height: 12rem;
 }
 
