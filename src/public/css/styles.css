@@ -10,10 +10,7 @@ body{
 .card-dark:hover{
     opacity: .7;
 }
-.container-card{
-   
-    margin: 2rem;
-}
+
 
 footer .redes-sociales {
     display: flex;
