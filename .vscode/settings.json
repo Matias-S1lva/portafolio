@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/src/views/partials/navigation.ejs"
+    "livePreview.defaultPreviewPath": "/src/views/partials/navigation.ejs",
+    "liveServer.settings.port": 5501
 }
