@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:wght@100;400&family=Rubik:wght@300&family=VT323&display=swap');
 body{
     background: #111;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .card{
     margin-bottom: 2rem;
@@ -11,12 +13,10 @@ body{
     opacity: .7;
 }
 
-
 footer .redes-sociales {
     display: flex;
-    align-items: center;
+   
     justify-content: center;
-    
     flex-wrap: wrap;
   }
 
@@ -31,10 +31,19 @@ footer .redes-sociales a {
     transition: 0.3s ease all;
     color: #f3f3f3;
   }
-  footer .redes-sociales .github {
-    background: #fa5c00;
-  }
+  
   footer .redes-sociales a i {
     font-size: 30px;
     line-height: 60px;
   }
+  footer .contenedor-icono:hover a {
+    animation: icono .5s ease;
+}
+@keyframes icono{
+    from{
+        transform: rotate3d(0,0,0,0);
+    }
+    to{
+        transform: rotate3d(0,1,0,360deg);
+    }
+}

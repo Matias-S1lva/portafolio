@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/jpg" href="src\public\img\favicon-32x32.png"/>
+ 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <title><%= title %></title>
     <%- include('partials/head')%>
   </head>
@@ -16,9 +17,14 @@
       class="container  d-flex justify-content-center align-items-center"
     >
       <div class="d-flex mb-5 flex-column justify-content-center align-items-center">
-        <img src="/img/perfil.jpg" class="w-25 rounded-circle" alt="" />
-        <h1 class="display-l my-5 text-uppercase fw-bold">Matias Silva</h1>
-        <a href="/about" class="btn btn-primary w-25">Sobre mi</a>
+        <div class="card" style="width: 18rem;">
+          <img src="../public/img/C.png" class="card-img-top" alt="C">
+          <div class="card-body">
+            <h5 class="card-title">Card with stretched link</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -27,7 +33,7 @@
       <%- include('partials/card')%>
      
     </div>
-    
+    <%- include('about')%>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
