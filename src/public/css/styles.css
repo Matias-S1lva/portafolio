@@ -58,4 +58,7 @@ footer .redes-sociales a {
     .perfilMobile{
         display: flex;
     }
+    .skills{
+        padding: 0;
+    }
 }
