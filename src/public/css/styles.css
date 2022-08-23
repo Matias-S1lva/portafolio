@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:wght@100;400&family=Rubik:wght@300&family=VT323&display=swap');
 body{
-    background: #111;
+    background: #202020  ;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+.perfil{
+    border: 2px solid white;
+}
+
 .perfilMobile{
     display: none;
 }
 .card{
-    margin-bottom: 2rem;
-    width: 18rem;
-    
+    border: 2px solid white;
+    width: 20rem;
 }
-.card-dark:hover{
-    opacity: .7;
+.card-projects{
+    height: 400px;
 }
 
+.card-dark:hover{
+    opacity: .8;
+}
+.form-container{
+    height: 220px;
+}
+ .form-container label{
+    margin-bottom: 8px;
+ }
 footer .redes-sociales {
     display: flex;
-   
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -51,7 +62,7 @@ footer .redes-sociales a {
     }
 }
 
-@media (max-width:992px){
+@media (max-width:1200px){
     .perfil{
         display: none;
     }

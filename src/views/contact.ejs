@@ -1,40 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-    <%- include('partials/head')%>
-</head>
-<body>
-    <%- include('partials/navigation')%>
-    <div class="container vh-100 d-flex justify-content-center align-items-center">
-        <div class="card bg-light  text-center" style="color: #202020;">
-            <div class="card-header">
-                <h3>Contact Me</h3>
-            </div>
-            <div class="card-body text-start">
-                <form action="https://formsubmit.co/3cb880a57f30d2ed9c2010285389e0d9" method="POST">
-                    <div class="mb-3">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="email" name="email" class="form-control">
-                    </div>
-                    <div class="mb-3">
-                        <label for="message">Message:</label>
-                        <textarea name="message"  rows="3" class="form-control" placeholder="Write a Message"></textarea>
-                    </div>
-
-                  
-                  <button class=" btn btn-primary btn-block">
-                    Send
-                  </button>
-
-                </form>
-            </div>
-
-        </div>
+<div id="list-item-3"
+  class="border-top container d-flex justify-content-center align-items-center"
+>
+  <div class="card bg-dark text-center" style="margin: 32px 0">
+    <div class="card-header">
+      <h3>Contact Me</h3>
     </div>
-    <%- include('partials/footer')%>
-</body>
-</html>
+    <div class="card-body text-start">
+      <form
+        action="https://formsubmit.co/3cb880a57f30d2ed9c2010285389e0d9"
+        method="POST"
+      >
+        <div class="form-container d-flex justify-content-between flex-column">
+          <div class="">
+            <label for="email">Email</label>
+            <input
+            id="email"
+              type="email"
+              placeholder="email"
+              name="email"
+              class="form-control"
+              style="background: #202020; color: white"
+            />
+          </div>
+
+          <div class="">
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              rows="3"
+              class="form-control"
+              placeholder="Write a Message"
+              style="background: #202020; color: white"
+            ></textarea>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-block mt-4">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('partials/footer')%>
