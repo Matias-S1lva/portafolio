@@ -4,6 +4,15 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+ .nav-item > a  {
+    transition: all 1s; 
+ }
+
+ .nav-item > a:hover {
+    transform: translateY(-300px);
+}
+
 .perfil{
     border: 2px solid white;
 }
