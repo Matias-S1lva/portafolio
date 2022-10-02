@@ -10,14 +10,6 @@ a {
     height: 40px;
 }
 
- .nav-item > a  {
-    transition: all 1s; 
- }
-
- .nav-item > a:hover {
-    transform: translateY(-300px);
-}
-
 .perfil{
     border: 2px solid white;
 }
@@ -39,6 +31,9 @@ a {
 
 #list-item-2{
     margin: 50px 0;
+}
+#list-item-2:nth-child(2){
+   flex-direction: column;
 }
 
 .form-container{
@@ -90,5 +85,10 @@ footer .redes-sociales a {
     }
     .skills{
         padding: 0;
+    }
+}
+@media (max-width:992px){
+    #container-skills{
+        flex-direction: column;
     }
 }
