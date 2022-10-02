@@ -4,6 +4,11 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+a {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
 
  .nav-item > a  {
     transition: all 1s; 
